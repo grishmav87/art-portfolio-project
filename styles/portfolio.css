@@ -1,13 +1,26 @@
-body {
-  background-color: bisque;
+:root {
+  --primary-colour: #d7fd82;
+  --secondary-colour: #854b37;
+  --header-font-family: "Indie Flower";
+  --body-font-family1: "Patrick Hand";
+  --body-font-family2: "Neucha";
 }
+
+body {
+  text-align: center;
+}
+
 h1 {
-  font-family: "Indie Flower";
+  font-family: var(--header-font-family);
   font-size: 48px;
 }
 h2 {
-  font-family: "Patrick Hand";
+  font-family: var(--body-font-family1);
 }
 p {
-  font-family: "Neucha";
+  font-family: var(--body-font-family2);
+}
+.homepage-img {
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
