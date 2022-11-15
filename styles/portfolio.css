@@ -21,6 +21,9 @@ h2 {
 p {
   font-family: var(--body-font-family2);
 }
+.col-4 {
+  padding-right: 0;
+}
 .homepage-img {
   max-width: 100%;
 
@@ -44,7 +47,7 @@ p {
 }
 .subheadings {
   font-family: var(--header-font-family);
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
   text-align: center;
   color: var(--secondary-colour);
