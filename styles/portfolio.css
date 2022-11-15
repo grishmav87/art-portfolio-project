@@ -6,13 +6,14 @@
   --body-font-family2: "Neucha";
 }
 
-body {
-  text-align: center;
+footer {
+  background-color: var(--primary-colour);
+  padding: 30px;
 }
-
 h1 {
   font-family: var(--header-font-family);
-  font-size: 48px;
+  font-size: 36px;
+  margin-bottom: -5px;
 }
 h2 {
   font-family: var(--body-font-family1);
@@ -21,6 +22,30 @@ p {
   font-family: var(--body-font-family2);
 }
 .homepage-img {
-  margin-top: 80px;
-  margin-bottom: 20px;
+  max-width: 100%;
+
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.logo {
+  max-width: 100px;
+  margin-left: 10px;
+}
+.header-logo img {
+  float: left;
+}
+.header-logo h1 {
+  display: block;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+.row-one {
+  justify-content: baseline;
+}
+.subheadings {
+  font-family: var(--header-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-colour);
 }
