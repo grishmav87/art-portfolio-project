@@ -46,6 +46,14 @@ p {
   text-align: center;
   color: var(--secondary-colour);
 }
+.fa-instagram,
+.fa-envelope {
+  font-size: large;
+}
+
+.copyright {
+  font-size: small;
+}
 
 @media (max-width: 768px) {
   .subheadings {
