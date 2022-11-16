@@ -1,6 +1,6 @@
 :root {
   --primary-colour: #d7fd82;
-  --secondary-colour: #854b37;
+  --secondary-colour: #a24141;
   --header-font-family: "Indie Flower";
   --body-font-family1: "Patrick Hand";
   --body-font-family2: "Neucha";
@@ -13,7 +13,6 @@ footer {
 h1 {
   font-family: var(--header-font-family);
   font-size: 36px;
-  margin-bottom: -5px;
 }
 h2 {
   font-family: var(--body-font-family1);
@@ -21,14 +20,8 @@ h2 {
 p {
   font-family: var(--body-font-family2);
 }
-.col-4 {
-  padding-right: 0;
-}
-.homepage-img {
-  max-width: 100%;
-
-  padding-left: 25px;
-  padding-right: 25px;
+.col-sm-4 img {
+  margin-bottom: 10px;
 }
 .logo {
   max-width: 100px;
@@ -39,6 +32,7 @@ p {
 }
 .header-logo h1 {
   display: block;
+  line-height: 70%;
   margin-top: 20px;
   padding-top: 50px;
 }
@@ -47,8 +41,23 @@ p {
 }
 .subheadings {
   font-family: var(--header-font-family);
-  font-size: 36px;
+  font-size: 44px;
   font-weight: 500;
   text-align: center;
   color: var(--secondary-colour);
+}
+
+@media (max-width: 768px) {
+  .subheadings {
+    font-size: 36px;
+  }
+  .header-logo h1 {
+    font-size: 28px;
+  }
+  .header-logo p {
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 80px;
+  }
 }
