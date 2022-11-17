@@ -59,6 +59,7 @@ p {
 }
 .about-me img {
   border-radius: 20px;
+  max-width: 80%;
 }
 
 .fa-instagram,
@@ -86,8 +87,11 @@ p {
   }
   .about-me {
     text-align: center;
+    padding-left: 30px;
   }
   .about-me p {
     font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
