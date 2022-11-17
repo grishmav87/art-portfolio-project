@@ -46,6 +46,21 @@ p {
   text-align: center;
   color: var(--secondary-colour);
 }
+.about-me {
+  margin-top: 100px;
+}
+.about-me h1 {
+  font-size: 44px;
+  font-weight: 600;
+}
+.about-me p {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.about-me img {
+  border-radius: 20px;
+}
+
 .fa-instagram,
 .fa-envelope {
   font-size: large;
@@ -56,7 +71,8 @@ p {
 }
 
 @media (max-width: 768px) {
-  .subheadings {
+  .subheadings,
+  .about-me h1 {
     font-size: 36px;
   }
   .header-logo h1 {
@@ -67,5 +83,11 @@ p {
   }
   .logo {
     max-width: 80px;
+  }
+  .about-me {
+    text-align: center;
+  }
+  .about-me p {
+    font-size: 16px;
   }
 }
