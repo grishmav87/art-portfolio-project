@@ -65,6 +65,12 @@ p {
 .soup img {
   max-width: 80%;
 }
+.contact-info a {
+  font-size: smaller;
+}
+.contact-info img {
+  max-width: 80%;
+}
 
 .fa-instagram,
 .fa-envelope {
