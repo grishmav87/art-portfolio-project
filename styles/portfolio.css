@@ -5,44 +5,59 @@
   --body-font-family1: "Patrick Hand";
   --body-font-family2: "Neucha";
 }
+nav {
+  padding-top: 50px;
+  padding-right: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  margin-left: 5px;
+  font-family: var(--body-font-family2);
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-colour);
+}
 
 footer {
   background-color: var(--primary-colour);
   padding: 30px;
 }
-h1 {
-  font-family: var(--header-font-family);
-  font-size: 36px;
-}
-h2 {
-  font-family: var(--body-font-family1);
-}
-p {
-  font-family: var(--body-font-family2);
-}
-.col-sm-4 img {
-  margin-bottom: 10px;
-}
+
 .logo {
-  max-width: 100px;
+  max-width: 200px;
   margin-left: 10px;
 }
 .header-logo img {
   float: left;
+  margin: 0;
+  padding-left: 30px;
 }
 .header-logo h1 {
   display: block;
   line-height: 70%;
-  margin-top: 20px;
-  padding-top: 50px;
 }
-
+.logo-subheading {
+  padding-left: 20px;
+}
 .row-one {
   justify-content: baseline;
 }
 .subheadings {
   font-family: var(--header-font-family);
-  font-size: 44px;
+  font-size: 60px;
   font-weight: 500;
   text-align: center;
   color: var(--secondary-colour);
@@ -50,13 +65,16 @@ p {
 .content-container {
   padding: 120px 20px;
 }
-.content-container h1 {
+h1 {
   font-size: 44px;
   font-weight: 600;
+  font-family: var(--header-font-family);
+  text-align: center;
 }
-.content-container p {
+p {
   font-size: 24px;
   opacity: 0.7;
+  font-family: var(--header-font-family);
 }
 .about-me-img {
   border-radius: 20px;
@@ -82,11 +100,17 @@ p {
 }
 
 @media (max-width: 768px) {
+  nav li {
+    font-size: 16px;
+  }
+
   .subheadings,
   .content-container h1 {
     font-size: 24px;
   }
-
+  .header-logo img {
+    padding: 0;
+  }
   .header-logo h1 {
     font-size: 20px;
   }
@@ -96,6 +120,9 @@ p {
   }
   .logo {
     max-width: 80px;
+  }
+  .logo-subheading {
+    display: none;
   }
   .content-container {
     text-align: center;
