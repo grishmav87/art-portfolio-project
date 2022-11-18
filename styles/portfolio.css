@@ -33,34 +33,32 @@ nav li.active a {
 .header-logo img {
   float: left;
   margin: 0;
-  padding-left: 10px;
   max-width: 200px;
 }
 .header-logo h1 {
   display: block;
   line-height: 70%;
+  font-family: var(--header-font-family);
+  font-size: 42px;
 }
 .header-logo p {
   padding-left: 20px;
+  font-family: var(--body-font-family2);
+  font-size: 20px;
 }
-
-.subheadings {
-  font-family: var(--header-font-family);
-  font-size: 60px;
-  font-weight: 500;
+.homepage-img {
+  margin: 0;
+}
+.content {
   text-align: center;
-  color: var(--secondary-colour);
+  padding: 50px 20px;
 }
-.content-container {
-  padding: 120px 20px;
-}
-h1 {
+.content h1 {
   font-size: 44px;
   font-weight: 600;
   font-family: var(--header-font-family);
-  text-align: center;
 }
-p {
+.content p {
   font-size: 24px;
   opacity: 0.7;
   font-family: var(--header-font-family);
@@ -86,7 +84,6 @@ footer {
 .fa-envelope {
   font-size: large;
 }
-
 .copyright {
   font-size: small;
 }
@@ -108,17 +105,15 @@ footer {
   .header-logo p {
     display: none;
   }
-
-  .subheadings,
-  .content-container h1 {
-    font-size: 24px;
-  }
-
-  .content-container {
+  .content {
     text-align: center;
     padding-left: 30px;
+    padding-top: 20px;
   }
-  .content-container p {
+  .content h1 {
+    font-size: 24px;
+  }
+  .content p {
     font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
