@@ -30,31 +30,20 @@ nav a:hover,
 nav li.active a {
   color: var(--secondary-colour);
 }
-
-footer {
-  background-color: var(--primary-colour);
-  padding: 30px;
-}
-
-.logo {
-  max-width: 200px;
-  margin-left: 10px;
-}
 .header-logo img {
   float: left;
   margin: 0;
-  padding-left: 30px;
+  padding-left: 10px;
+  max-width: 200px;
 }
 .header-logo h1 {
   display: block;
   line-height: 70%;
 }
-.logo-subheading {
+.header-logo p {
   padding-left: 20px;
 }
-.row-one {
-  justify-content: baseline;
-}
+
 .subheadings {
   font-family: var(--header-font-family);
   font-size: 60px;
@@ -89,7 +78,10 @@ p {
 .contact-info img {
   max-width: 80%;
 }
-
+footer {
+  background-color: var(--primary-colour);
+  padding: 30px;
+}
 .fa-instagram,
 .fa-envelope {
   font-size: large;
@@ -100,30 +92,28 @@ p {
 }
 
 @media (max-width: 768px) {
+  nav {
+    padding-top: 20px;
+  }
   nav li {
     font-size: 16px;
+  }
+  .header-logo img {
+    padding: 0;
+    max-width: 80px;
+  }
+  .header-logo h1 {
+    font-size: 20px;
+  }
+  .header-logo p {
+    display: none;
   }
 
   .subheadings,
   .content-container h1 {
     font-size: 24px;
   }
-  .header-logo img {
-    padding: 0;
-  }
-  .header-logo h1 {
-    font-size: 20px;
-  }
-  .header-logo p {
-    font-size: 10px;
-    padding: 0;
-  }
-  .logo {
-    max-width: 80px;
-  }
-  .logo-subheading {
-    display: none;
-  }
+
   .content-container {
     text-align: center;
     padding-left: 30px;
