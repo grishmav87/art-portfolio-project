@@ -64,9 +64,8 @@ nav li.active a {
   font-family: var(--header-font-family);
 }
 .about-me-img {
-  border-radius: 10px;
+  border-radius: 40px;
   max-width: 80%;
-  padding-bottom: 0px;
 }
 .soup img {
   max-width: 80%;
@@ -120,6 +119,45 @@ footer .copyright {
   transition: all 100ms ease-in-out;
 }
 @media (max-width: 768px) {
+  nav {
+    padding-top: 20px;
+  }
+  nav li {
+    font-size: 24px;
+  }
+  .header-logo img {
+    max-width: 80px;
+  }
+  .header-logo h1 {
+    font-size: 24px;
+  }
+  .header-logo p {
+    display: none;
+  }
+  .content {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .content h1 {
+    font-size: 36px;
+  }
+  .content p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .button {
+    font-size: 20px;
+  }
+  footer .copyright {
+    font-size: 18px;
+  }
+  .credits {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
   nav {
     padding-top: 20px;
   }
