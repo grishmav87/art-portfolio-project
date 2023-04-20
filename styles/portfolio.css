@@ -114,9 +114,6 @@ footer .copyright {
   font-family: var(--body-font-family2);
 }
 
-.thank-you-frog img {
-  max-width: 50%;
-}
 .button {
   padding: 5px 10px;
   border-radius: 10px;
