@@ -21,7 +21,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 80px;
+  line-height: 20px;
   margin-left: 5px;
   font-family: var(--body-font-family2);
 }
@@ -54,7 +54,6 @@ nav li.active a {
 }
 .content {
   text-align: center;
-  padding: 50px;
 }
 .content h1 {
   font-size: 32px;
@@ -76,11 +75,15 @@ nav li.active a {
 .soup img {
   max-width: 80%;
 }
-.contact-info a {
-  font-size: smaller;
+.form-control,
+button {
+  font-size: 12px !important;
+  font-family: var(--body-font-family2);
 }
+
 .contact-info img {
-  max-width: 70%;
+  max-width: 60%;
+  margin: none;
 }
 footer {
   padding-bottom: 20px;
